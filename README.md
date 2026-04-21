@@ -1,3 +1,30 @@
-# NumLabIMC
+# Laboratorio Numérico (NumLabIMC)
 
-Bienvenidos al laboratorio numérico de la materia *Introducción al modelado continuo* (IMC) de la Licenciatura en Ciencias de Datos, también conocida como *Ecuaciones de la física matemática*. En este, vamos a ver métodos numéricos para resolver distintos tipos de problemas de manera general, y su relación y aplicación a problemas específicos de la materia, de manera tal de complementar los contenidos de la cursada teórico-práctica.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+## Descripción
+Trabajo Práctico de Laboratorio Numérico y Análisis. Resolución de problemas utilizando métodos numéricos.
+
+## Estructura del repositorio
+- `notebooks/`: Desarrollo principal, análisis de datos y resultados.
+- `src/`: Implementación de algoritmos y funciones auxiliares.
+- `docs/`: Consigna original y reporte técnico.
+
+## Requisitos
+Para la ejecución de este proyecto, es necesario instalar las dependencias listadas en el archivo requirements.txt. Se sugiere la utilización de un entorno virtual.
+
+```bash
+git clone https://github.com/EmiiGit/NumLabIMC.git
+pip install -r requirements.txt
+```
+
+## Ejecución
+1. Iniciar el entorno de Jupyter en el directorio del proyecto:
+   ```bash
+   jupyter notebook
+   ```
+2. Abrir y ejecutar el archivo correspondiente ubicado en el directorio `notebooks/`.
+
+## Autores
+- [Padrón / Apellido y Nombre]
