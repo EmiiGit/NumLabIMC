@@ -1,30 +1,19 @@
-# Laboratorio Numérico (NumLabIMC)
+# 🧮 Métodos Numéricos y Simulación Computacional
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+## 📌 Descripción del Problema
+Muchos sistemas en ciencias exactas y de datos involucran ecuaciones que no poseen soluciones analíticas exactas. Este repositorio presenta la implementación en Python de algoritmos de análisis numérico para aproximar soluciones complejas. Se prioriza el análisis riguroso del error computacional, la eficiencia algorítmica y la estabilidad matemática.
 
-## Descripción
-Trabajo Práctico de Laboratorio Numérico y Análisis. Resolución de problemas utilizando métodos numéricos.
+## 🛠️ Stack Tecnológico
+- **Lenguaje:** Python
+- **Cálculo Numérico y Científico:** NumPy, SciPy
+- **Entorno interactivo:** Jupyter Notebooks
+- **Visualización Científica:** Matplotlib
 
-## Estructura del repositorio
-- `notebooks/`: Desarrollo principal, análisis de datos y resultados.
-- `src/`: Implementación de algoritmos y funciones auxiliares.
-- `docs/`: Consigna original y reporte técnico.
+## 🔬 Metodología Aplicada
+El repositorio incluye el **TP1 de Métodos Numéricos (`Metodos_Numericos_TP1.ipynb`)**, que abarca:
+- Implementación desde cero de métodos de cálculo numérico (Búsqueda de Raíces, Sistemas de Ecuaciones Lineales, etc.).
+- Análisis asintótico y de convergencia para asegurar que la aproximación sea confiable.
+- Control del error de truncamiento y redondeo (aritmética de punto flotante).
 
-## Requisitos
-Para la ejecución de este proyecto, es necesario instalar las dependencias listadas en el archivo requirements.txt. Se sugiere la utilización de un entorno virtual.
-
-```bash
-git clone https://github.com/EmiiGit/NumLabIMC.git
-pip install -r requirements.txt
-```
-
-## Ejecución
-1. Iniciar el entorno de Jupyter en el directorio del proyecto:
-   ```bash
-   jupyter notebook
-   ```
-2. Abrir y ejecutar el archivo correspondiente ubicado en el directorio `notebooks/`.
-
-## Autores
-- [Padrón / Apellido y Nombre]
+## 📊 Resultados Técnicos
+Los algoritmos desarrollados demostraron alta precisión matemática y estabilidad, alcanzando la convergencia bajo tolerancias estrictas (ej. $1 \times 10^{-6}$). El uso de Notebooks permitió combinar código eficiente con explicaciones matemáticas detalladas, reflejando una excelente capacidad de comunicación técnica.
